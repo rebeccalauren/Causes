@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 		<meta charset=UTF8>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -27,6 +26,9 @@
 		</div>
 			<ul class="nav">
 					<li>
+						<a href=Index.html>Home</a>
+					</li>
+					<li>
 						<a href=aboutUs.html>About Us</a>
 					</li>
 					<li>
@@ -47,7 +49,8 @@
       <h1 id="font">Contact us<img id="mail"img src="images/mail.svg" width="50px"></h1>
         <p>We are here to answer any questions you may have about our organization. Once we receive your question, we'll get back to you as soon as possible.</p>
         <p>Also, if there are any unique ways you think could benefit our organization, please let us know!</p>
-    <form
+		<div class="contactform">
+		<form
         action="mailto:hommenid@gmail.com"
         method="POST"
         enctype="multipart/form-data"
@@ -56,11 +59,12 @@
         Name:<br>
     <input type="text" size="20" name="VisitorName"><br><br>
 
-        Comment:<br>
+        Question:<br>
     <textarea name="VisitorComment" rows="4" cols="20">
     </textarea><br><br>
 
     <input type="submit" value="Submit">
+	</div>
 
   </div>
   </form>
