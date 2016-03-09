@@ -168,7 +168,7 @@ a:active {
     float: left;
     top: 20px;
     left: 10px;
-    width: 37%;
+    width: 40%;
     color: black;
     font-family: 'News Cycle', sans-serif;
     font-size: 16px;
@@ -178,7 +178,7 @@ a:active {
   	float: left;
     top: 20px;
     left: 10px;
-    width: 40%;
+    width: 25%;
     color: black;
     font-family: 'News Cycle', sans-serif;
     font-size: 16px;
@@ -187,8 +187,8 @@ a:active {
 		margin:1%;
   	float: left;
     top: 20px;
-    left: 10px;
-    width: 10%;
+    left: 15px;
+    width: 20%;
     color: black;
     font-family: 'News Cycle', sans-serif;
     font-size: 16px;
@@ -337,4 +337,32 @@ a:active {
   font-family: 'News Cycle', sans-serif;
   font-size: 40px;
 }
-
+#most {
+  width: 360px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 50px;
+}
+#vert {
+  height: 240px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 50px;
+}
+#fontnow {
+  font-family: 'Shadows Into Light', cursive;
+  top: 100px;
+  margin: 0px;
+  padding: 30px;
+  line-height: 20px
+}
+#volunteer {
+  font-family: 'News Cycle', sans-serif;
+  top: 200px;
+  width: 70%;
+  margin-left: 40px;
+}
