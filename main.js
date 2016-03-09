@@ -1,4 +1,28 @@
+$(document).ready(function() {
 
+$("#myDivred1").animate({
+        width: "70%",
+      } 
+  , 2000);
+});
+
+/*$("#clock").countdown({
+  until: new Date(2016, 5, 1), format:"dhM"});*/
+
+setInterval(
+  function(){
+    var dateTime = new Date();
+    var minutesTwoDigitsWithLeadingZero = ("0" + dateTime.getMinutes()).substr(-2);
+    $("#milliseconds").text(dateTime.getMilliseconds());
+    $("#seconds").text(dateTime.getSeconds());
+    $("#minutes").text(dateTime.minutesTwoDigitsWithLeadingZero);
+    $("#hours").text(dateTime.getHours());
+  },
+  500)
+
+//$(selector).countdown({until: liftoffTime, format: 'dHM'});
+//$(selector).countdown({since: new Date(2014, 12-1, 25)});
+//dec 25 2014
 
 $(function(){
   $('.fadein img:gt(0)').hide();
@@ -9,26 +33,8 @@ $(function(){
   3000);
 });
 
-var step=0
-function slideit(){
- if (!document.images)
-  return
- document.getElementById('slide').src = slideimages[step].src
- if (step<1)
-  step++
- else
-  step=0
- setTimeout("slideit()",2500)
-}
 
 
-var q=25000;
- function changeImage() {
-    var image = document.getElementById('therm');
-    if (q<39999) {
-        image.src = "images/thermometerfull.png";
-   } else if (40000<q<60000) {
-        image.src = "images/thermometerfull.png"
-    } else {
-        image.src = "images/thermometer.gif";
- }}
+
+
+

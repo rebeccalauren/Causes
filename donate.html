@@ -14,10 +14,10 @@
   </head>
   <body>
       <div id="header">
-      <a href="index.html">
-        <img id="logo" src="images/logo.svg" width="25%">
-      </a>
-    </div>
+        <a href="index.html">
+          <img id="logo" src="images/logo.svg" width="25%">
+        </a>
+      </div>
       <ul class="nav">
           <li>
             <a href=aboutUs.html>About Us</a>
@@ -35,7 +35,33 @@
         <a href="https://www.tumblr.com"><img id="tw"img src="images/tumblr.svg" width="30px"></a>
         <a href="https://plus.google.com"><img id="tw"img src="images/google.svg" width="30px"></a>
     </div>
-    <img id ="therm" onclick="changeImage()" src=images/thermometer.gif>
-</div>
+    <div id="therm">
+    </div>
+    <div id="myDivred1">
+    </div>
+  <div id=countdown-wrap>
+  <div id="goal"><p>Help us reach our fundraising goal!</p> <p id ="money">$500,000</p></div>
+  </div>
+  <div class="goal-stat">
+    <span class="goal-number">90%</span>
+    <span class="goal-label">Funded</span>
+  </div>
+  <div class="goal-stat">
+    <span class="goal-number">$440,440</span>
+    <span class="goal-label">Raised</span>
+  </div>
+  <div class="goal-stat">
+    <span class="goal-number"><div id="countdown"></div></span>
+    <span class="goal-label">Days to Go</span>
+    <div id="clock">
+    <span id="hours"></span>
+    :
+    <span id="minutes"></span>
+    :
+    <span id="seconds"></span>
+    :
+    <span id="milliseconds"></span>
+    </div>
+  </div>
 </body>
 </html>
