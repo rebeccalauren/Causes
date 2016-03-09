@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 	<html>
 	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 		<meta charset=UTF8>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="main.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<title>
 			Building Hope
 		</title>
@@ -57,11 +57,11 @@
         name="EmailTestForm">
 
         Name:<br>
-    <input type="text" size="20" name="VisitorName"><br><br>
+    <input id="visitorName" type="text" size="20" name="VisitorName"><br><br>
 
         Question:<br>
-    <textarea name="VisitorComment" rows="4" cols="20">
-    </textarea><br><br>
+    <textarea id="visitorCom"name="VisitorComment" rows="4" cols="20"></textarea>
+		<br><br>
 
     <input type="submit" value="Submit">
 	</div>
