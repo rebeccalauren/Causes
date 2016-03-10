@@ -27,10 +27,10 @@
 	float:left;
 	border: 10px solid black;
 	margin:5px;
+	padding-bottom:300px;
 	padding:5px;
 	padding:10px;
 	background:white;
-	opacity: .70;
 }
 .C2 {
 	float:left;
@@ -39,7 +39,6 @@
 	padding:5px;
 	padding:10px;
 	background:white;
-	opacity: .70;
 }
 .C3 {
 	float:left;
@@ -48,7 +47,6 @@
 	padding:5px;
 	padding:10px;
 	background:white;
-	opacity: .70;
 }
 .contactform{
 	font-family: 'Shadows Into Light', cursive;
@@ -130,6 +128,7 @@ a:active {
     width: 100%;
 }
 .fadein {
+	padding-top: 35%;
 	position:relative;
 	width:500px;
 }
@@ -138,6 +137,10 @@ a:active {
 	right:0;
 	top:0;
 }
+.gallery {
+	padding-left:2%;
+}
+
 #petition{
 	font-family: 'Shadows Into Light', cursive;
   margin:auto;
@@ -153,6 +156,10 @@ a:active {
   border-radius: 10px;
   padding: 10px;
   border: 3px solid #999;
+}
+#phillyback{
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 #background{
 	position: absolute;
@@ -195,6 +202,7 @@ a:active {
     font-size: 16px;
 }
 #contact {
+	padding-left: 2%;
 	font-family: 'News Cycle', sans-serif;
 	font-weight:lighter;
 }
@@ -244,6 +252,7 @@ a:active {
 	top: 0px;
 }
 #paragraph {
+	padding-left: 2%;
 	position: absolute;
     top: 200px;
     left: 10px;
@@ -309,7 +318,7 @@ a:active {
   width: 80%;
   padding: 0px;
   @media only screen and (max-width : 640px) {
-    text-align: center;  
+    text-align: center;
   }
 }
 
@@ -320,7 +329,7 @@ a:active {
   margin: 0px;
   padding: 30px;
   font-family: 'News Cycle', sans-serif;
-  
+
   @media only screen and (max-width : 640px) {
     width: 40%;
     text-align: center;
